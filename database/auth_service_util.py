@@ -258,4 +258,4 @@ def revoke_role(target_user_id, role_name):
     if rows > 0:
         return True, f"✅ 成功从用户 {target_user_id} 撤销角色: {role_name}。"
     else:
-        return False, f"❌ 用户 {target_user_id} 原本就没有该角色: {role_name}。"
+        return False, f"❌ 用户 {target_user_id} 原本没有该角色: {role_name}。"
